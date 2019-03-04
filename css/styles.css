@@ -155,8 +155,10 @@ nav h1 a {
   padding: 30px 15px 60px;
   text-align: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 #restaurants-list li {
@@ -167,8 +169,8 @@ nav h1 a {
   min-height: 380px;
   padding: 0 30px 25px;
   text-align: left;
-  max-width: 100%;
-  width: 80%;
+  min-width: 270px;
+  max-width: 300px;
 }
 
 #restaurants-list .restaurant-img {
@@ -176,7 +178,7 @@ nav h1 a {
   display: block;
   margin: 0;
   max-width: 100%;
-  min-height: 248px;
+  min-height: 250px;
   min-width: 100%;
   padding-top: 20px;
 }
